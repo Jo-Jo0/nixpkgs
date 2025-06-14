@@ -19,6 +19,12 @@
       libphp-phpmailer = pkgs.callPackage ./libphp-phpmailer/package.nix {};
     }
     );
+    overlays = {
+      nixpkgsJoJo0 = {
+        inherit (self)
+          packages;
+      };
+    };
     hydraJobs = {
       inherit (self)
         packages;
