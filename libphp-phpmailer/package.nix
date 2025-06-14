@@ -21,6 +21,5 @@ php.buildComposerProject2 (finalAttrs: {
     license = lib.licenses.lgpl21Only;
     changelog = "https://github.com/PHPMailer/PHPMailer/raw/v${finalAttrs.version}/changelog.md";
     platforms = lib.platforms.all;
-    maintainers = with lib.maintainers; [ Jo-Jo0 ];
   };
 })

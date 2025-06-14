@@ -23,6 +23,5 @@ stdenv.mkDerivation (finalAttrs: {
     license = lib.licenses.lgpl3Plus;
     changelog = "https://github.com/tecnickcom/TCPDF/raw/${finalAttrs.version}/CHANGELOG.TXT";
     platforms = lib.platforms.all;
-    maintainers = with lib.maintainers; [ Jo-Jo0 ];
   };
 })
